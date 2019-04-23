@@ -1,0 +1,6 @@
+framework module Pods_AnimalsDatabaseRealm {
+  umbrella header "Pods-AnimalsDatabaseRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}

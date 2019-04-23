@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B26164E226C96620071BADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B26164D226C96620071BADA /* AppDelegate.swift */; };
+		4B261650226C96620071BADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B26164F226C96620071BADA /* ViewController.swift */; };
+		4B261653226C96620071BADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B261651226C96620071BADA /* Main.storyboard */; };
+		4B261655226C96650071BADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B261654226C96650071BADA /* Assets.xcassets */; };
+		4B261658226C96650071BADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B261656226C96650071BADA /* LaunchScreen.storyboard */; };
+		4B8791C4226DA0B600BBEC4C /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8791C3226DA0B600BBEC4C /* Animals.swift */; };
+		4B8791C7226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8791C5226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.swift */; };
+		4B8791C8226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B8791C6226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.xib */; };
+		4B8791DB226DEA9A00BBEC4C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8791D9226DEA9A00BBEC4C /* InfoViewController.swift */; };
+		4B8791DC226DEA9A00BBEC4C /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B8791DA226DEA9A00BBEC4C /* InfoViewController.xib */; };
+		4B8791DE226DEAB900BBEC4C /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8791DD226DEAB900BBEC4C /* Info.swift */; };
+		6C1AE149436EC0F2AD3D2380 /* Pods_AnimalsDatabaseRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5BAC1C4734BCA80801BF69 /* Pods_AnimalsDatabaseRealm.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F5BAC1C4734BCA80801BF69 /* Pods_AnimalsDatabaseRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalsDatabaseRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F79B9C23BF550C4743AC2CE /* Pods-AnimalsDatabaseRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalsDatabaseRealm.release.xcconfig"; path = "Target Support Files/Pods-AnimalsDatabaseRealm/Pods-AnimalsDatabaseRealm.release.xcconfig"; sourceTree = "<group>"; };
+		4B26164A226C96610071BADA /* AnimalsDatabaseRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsDatabaseRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B26164D226C96620071BADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B26164F226C96620071BADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B261652226C96620071BADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B261654226C96650071BADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B261657226C96650071BADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B261659226C96650071BADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8791C3226DA0B600BBEC4C /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		4B8791C5226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndDelateAnimalsViewController.swift; sourceTree = "<group>"; };
+		4B8791C6226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddAndDelateAnimalsViewController.xib; sourceTree = "<group>"; };
+		4B8791D9226DEA9A00BBEC4C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		4B8791DA226DEA9A00BBEC4C /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		4B8791DD226DEAB900BBEC4C /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		700CADD9F61C0E3FEDDE8117 /* Pods-AnimalsDatabaseRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalsDatabaseRealm.debug.xcconfig"; path = "Target Support Files/Pods-AnimalsDatabaseRealm/Pods-AnimalsDatabaseRealm.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B261647226C96610071BADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1AE149436EC0F2AD3D2380 /* Pods_AnimalsDatabaseRealm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8978584B15A09A064E1001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F5BAC1C4734BCA80801BF69 /* Pods_AnimalsDatabaseRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B261641226C96610071BADA = {
+			isa = PBXGroup;
+			children = (
+				4B8791D7226DEA7200BBEC4C /* AnimalsDetailedInfo */,
+				4B8791C1226D9F4400BBEC4C /* AppDelegate */,
+				4B8791B0226D952A00BBEC4C /* ScrollAnimals */,
+				4B26164C226C96610071BADA /* AnimalsDatabaseRealm */,
+				4B26164B226C96610071BADA /* Products */,
+				602B7185D2C753D558DCB368 /* Pods */,
+				0F8978584B15A09A064E1001 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B26164B226C96610071BADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B26164A226C96610071BADA /* AnimalsDatabaseRealm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B26164C226C96610071BADA /* AnimalsDatabaseRealm */ = {
+			isa = PBXGroup;
+			children = (
+				4B26164F226C96620071BADA /* ViewController.swift */,
+				4B261651226C96620071BADA /* Main.storyboard */,
+				4B261654226C96650071BADA /* Assets.xcassets */,
+				4B261656226C96650071BADA /* LaunchScreen.storyboard */,
+				4B261659226C96650071BADA /* Info.plist */,
+			);
+			path = AnimalsDatabaseRealm;
+			sourceTree = "<group>";
+		};
+		4B8791B0226D952A00BBEC4C /* ScrollAnimals */ = {
+			isa = PBXGroup;
+			children = (
+				4B8791C5226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.swift */,
+				4B8791C6226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.xib */,
+				4B8791C2226DA09E00BBEC4C /* Class */,
+			);
+			path = ScrollAnimals;
+			sourceTree = "<group>";
+		};
+		4B8791C1226D9F4400BBEC4C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4B26164D226C96620071BADA /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4B8791C2226DA09E00BBEC4C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4B8791C3226DA0B600BBEC4C /* Animals.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4B8791D7226DEA7200BBEC4C /* AnimalsDetailedInfo */ = {
+			isa = PBXGroup;
+			children = (
+				4B8791D9226DEA9A00BBEC4C /* InfoViewController.swift */,
+				4B8791DA226DEA9A00BBEC4C /* InfoViewController.xib */,
+				4B8791D8226DEA8400BBEC4C /* Class */,
+			);
+			path = AnimalsDetailedInfo;
+			sourceTree = "<group>";
+		};
+		4B8791D8226DEA8400BBEC4C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4B8791DD226DEAB900BBEC4C /* Info.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		602B7185D2C753D558DCB368 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				700CADD9F61C0E3FEDDE8117 /* Pods-AnimalsDatabaseRealm.debug.xcconfig */,
+				3F79B9C23BF550C4743AC2CE /* Pods-AnimalsDatabaseRealm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B261649226C96610071BADA /* AnimalsDatabaseRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B26165C226C96650071BADA /* Build configuration list for PBXNativeTarget "AnimalsDatabaseRealm" */;
+			buildPhases = (
+				B81D15E7CEFF00631B487C80 /* [CP] Check Pods Manifest.lock */,
+				4B261646226C96610071BADA /* Sources */,
+				4B261647226C96610071BADA /* Frameworks */,
+				4B261648226C96610071BADA /* Resources */,
+				B318D2B59C011C9F90590572 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalsDatabaseRealm;
+			productName = AnimalsDatabaseRealm;
+			productReference = 4B26164A226C96610071BADA /* AnimalsDatabaseRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B261642226C96610071BADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Quadref;
+				TargetAttributes = {
+					4B261649226C96610071BADA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B261645226C96610071BADA /* Build configuration list for PBXProject "AnimalsDatabaseRealm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B261641226C96610071BADA;
+			productRefGroup = 4B26164B226C96610071BADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B261649226C96610071BADA /* AnimalsDatabaseRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B261648226C96610071BADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B261658226C96650071BADA /* LaunchScreen.storyboard in Resources */,
+				4B8791C8226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.xib in Resources */,
+				4B261655226C96650071BADA /* Assets.xcassets in Resources */,
+				4B8791DC226DEA9A00BBEC4C /* InfoViewController.xib in Resources */,
+				4B261653226C96620071BADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B318D2B59C011C9F90590572 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalsDatabaseRealm/Pods-AnimalsDatabaseRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimalsDatabaseRealm/Pods-AnimalsDatabaseRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81D15E7CEFF00631B487C80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalsDatabaseRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B261646226C96610071BADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B261650226C96620071BADA /* ViewController.swift in Sources */,
+				4B8791C7226DBADC00BBEC4C /* AddAndDelateAnimalsViewController.swift in Sources */,
+				4B8791C4226DA0B600BBEC4C /* Animals.swift in Sources */,
+				4B8791DE226DEAB900BBEC4C /* Info.swift in Sources */,
+				4B26164E226C96620071BADA /* AppDelegate.swift in Sources */,
+				4B8791DB226DEA9A00BBEC4C /* InfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B261651226C96620071BADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B261652226C96620071BADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B261656226C96650071BADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B261657226C96650071BADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B26165A226C96650071BADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B26165B226C96650071BADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B26165D226C96650071BADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700CADD9F61C0E3FEDDE8117 /* Pods-AnimalsDatabaseRealm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalsDatabaseRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = quad.AnimalsDatabaseRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B26165E226C96650071BADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F79B9C23BF550C4743AC2CE /* Pods-AnimalsDatabaseRealm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalsDatabaseRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = quad.AnimalsDatabaseRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B261645226C96610071BADA /* Build configuration list for PBXProject "AnimalsDatabaseRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B26165A226C96650071BADA /* Debug */,
+				4B26165B226C96650071BADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B26165C226C96650071BADA /* Build configuration list for PBXNativeTarget "AnimalsDatabaseRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B26165D226C96650071BADA /* Debug */,
+				4B26165E226C96650071BADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B261642226C96610071BADA /* Project object */;
+}
